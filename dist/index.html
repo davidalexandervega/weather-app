@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/styles.css">
+    <title>title</title>
+</head>
+<body>
+    <div id="topBar">
+        <div id="banner">
+            <div id="bannerSubtitle">weather forecast for</div>
+            <div id="bannerTitle"></div>
+        </div>
+        <div id="currentTime"></div>
+    </div>
+
+    <div id="functionBar">
+        <div id="searchContainer">
+            <div id="searchBox">
+                <input type="text" id="searchField" placeholder="search by city...">
+                <div id="searchButton">go!</div>
+            </div>
+            <div id="searchExample">example: "portland" or "new york, NY"</div>
+        </div>
+        <div id="tempMode">
+            switch to &deg;C
+        </div>
+    </div>
+
+    <div class="sectionHeader">current</div>
+    <div id="currentDataContainer">
+        <div id="currentDataLeft">
+            <div id="description"></div>
+            <div id="currentTemp"></div>
+        </div>
+        <div id="currentDataRight">
+            <div id="feelTemp"></div>
+            <div id="chanceRain"></div>
+            <div id="humidity"></div>
+            <div id="windSpeed"></div>
+        </div>
+    </div>
+
+    <div class="sectionHeader" id="hourlyHeader">hourly</div>
+    <div id="hourlyDataContainer">
+    </div>
+
+    <div class="sectionHeader" id="dailyHeader">daily</div>
+    <div id="dailyDataContainer">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

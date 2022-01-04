@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#topBar {
+  display: flex;
+  margin-top: 20px;
+  font-style: italic;
+  font-weight: bold;
+  justify-content: space-between;
+}
+
+#bannerTitle {
+  font-size: 25px;
+}
+
+#functionBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+#searchContainer {
+  margin-top: 10px;
+}
+
+#searchBox {
+  display: flex;
+  gap: 4px;
+}
+
+#searchField, searchField:focus {
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: whitesmoke;
+  width: 120px;
+  outline: none;
+}
+
+#searchButton {
+  font-size: 14px;
+  color: hotpink;
+}
+
+#searchButton:hover {
+  cursor: pointer;
+  font-style: italic;
+}
+
+#searchExample {
+  font-size: 10px;
+  margin-left: 4px;
+}
+
+#tempMode {
+  margin-top: -20px;
+  margin-bottom: 40px;
+  font-size: 14px;
+  color: hotpink;
+}
+
+#tempMode:hover {
+  cursor: pointer;
+  font-style: italic;
+}
+
+.sectionHeader {
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#currentDataContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#description {
+  margin-top: 4px;
+  margin-left: 4px;
+  font-size: 25px;
+  font-style: italic;
+}
+
+#currentTemp {
+  margin-left: 4px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#currentDataRight {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+#hourlyHeader {
+  margin-top: 40px;
+}
+
+#hourlyDataContainer {
+  margin-top: 10px;
+  margin-left: 4px;
+  font-size: 20px;
+  gap: 52px;
+  display: flex;
+}
+
+#hourField {
+  font-weight: bold;
+}
+
+#dailyHeader {
+  margin-top: 20px;
+}
+
+#dailyDataContainer {
+  margin-top: 10px;
+  margin-left: 4px;
+  font-size: 20px;
+  gap: 100px;
+  display: flex;
+}
+
+#hiField, #loField {
+  font-size: 16px;
+}
