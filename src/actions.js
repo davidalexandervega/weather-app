@@ -1,4 +1,4 @@
-const apiKey = '';
+const apiKey = '05556916a9ab57a851784885d0ac5976';
 
 const fetchCoords = async (location) => {
     try {
